@@ -1,8 +1,16 @@
 ///////////////// PALINDROMA /////////////////
 
-const userWord = prompt('Inserisci una parola palindroma');
+let userWord;
+let word;
+const btnPal = document.getElementById('pal');
 const reverseOutput = document.getElementById('reverse');
-reverseOutput.innerHTML = palindromaCheck();
+
+btnPal.addEventListener('click', function(){
+  word = document.getElementById('word');
+  userWord = word.value;
+  reverseOutput.innerHTML = palindromaCheck();
+  
+})
 
 ///////////////// PARI E DISPARI /////////////////
 

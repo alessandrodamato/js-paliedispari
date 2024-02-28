@@ -25,6 +25,10 @@ hr{
   margin-bottom: 20px;
 }
 
+#pal{
+   margin-bottom: 20px;
+}
+
 input[type="number"]{
   width: 250px;
 }
