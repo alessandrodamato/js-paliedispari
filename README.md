@@ -16,8 +16,8 @@ Dichiariamo chi ha vinto.
 2. Creare una funzione per verificare se la parola è palindroma
 
 ## Svolgimento Pari e Dispari
-1. Utilizzare un prompt per chiedere all'utente pari o dispari
-2. Utilizzare un prompt per chiedere all'utente un numero da 1 a 5
+1. Utilizzare un select per chiedere all'utente pari o dispari
+2. Utilizzare un input per chiedere all'utente un numero da 1 a 5
 3. Con una funzione generare un numero random per il PC
 4. Somma dei numeri
 5. Utilizzare una funzione per stabilire se il numero sommato è pari o dispari

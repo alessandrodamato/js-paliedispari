@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  padding: 50px;
+}
+
+h1{
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+h2{
+  margin-bottom: 10px;
+}
+
+hr{
+  margin-bottom: 20px;
+}
+
+input[type="number"]{
+  width: 250px;
+}

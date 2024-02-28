@@ -1,15 +1,29 @@
 ///////////////// PALINDROMA /////////////////
 
-const userWord = prompt('Inserisci una parola palindroma')
+const userWord = 'giovanni'; //prompt('Inserisci una parola palindroma')
 const reverseOutput = document.getElementById('reverse');
 reverseOutput.innerHTML = palindromaCheck();
 
 ///////////////// PARI E DISPARI /////////////////
 
+const btnGo = document.getElementById('go');
+const numberPlayer = document.getElementById('num-player');
+const choose = document.getElementById('choose');
+let playerChoose;
 
+btnGo.addEventListener('click', function(){
+  
+  if ((choose.value === 'pari') && (numberPlayer.value > 0) && (numberPlayer.value <= 5)){
+    console.log('Scegli pari');
+    
+  } else if ((choose.value === 'dispari') && (numberPlayer.value > 0) && (numberPlayer.value <= 5)){
+    console.log('Scegli dispari');
+  
+  } else {
+    console.log('Scegli tra pari e dispari e inserisci un numero da 1 a 5');
+  }
 
-
-
+})
 
 ///////////////// FUNCTIONS /////////////////
 
@@ -34,4 +48,8 @@ function palindromaCheck () {
     return 'La parola inserita è palindroma: ' + userWord + ' al contrario è: ' + reverseUserWord;
 
   }
+}
+
+function getRandomNumber () {
+  
 }
